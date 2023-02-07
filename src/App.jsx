@@ -1,8 +1,10 @@
+import Signin from "./pages/Signin"
+
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline" >
-      Hello world!
-    </h1 >
+    <div className="light">
+      <Signin />
+    </div>
   )
 
 }
